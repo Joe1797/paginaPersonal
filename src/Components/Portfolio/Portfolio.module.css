@@ -1,0 +1,133 @@
+.containerPrincipal {
+  position: absolute;
+  background-image: url("../../Images/portafolioBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
+  background-attachment: fixed;
+  background-position: center center;
+  width: 100%;
+  min-height: 100vh;
+  top: 0;
+  box-sizing: border-box;
+  padding: 30px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: no-wrap;
+  align-items: flex-start;
+  color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+.containerPrincipal .containerIzq {
+  width: 30vw;
+}
+.containerPrincipal .containerDer {
+  width: 60vw;
+  background-color: #f5f5f529;
+  border-radius: 50px;
+  padding: 30px;
+  min-height: 75vh;
+  box-sizing: border-box;
+  color: black;
+  box-shadow: 2px 2px 3px #d62c40;
+}
+
+.border {
+  max-width: 800px;
+  border-left: 6px solid #d62c40;
+  padding-left: 6px;
+  height: 50px;
+}
+
+.border > h3 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 50px;
+  margin: 0;
+}
+
+.border > h3 > strong {
+  color: #d62c40;
+  font-weight: 600;
+}
+
+.navPortafolio > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 25px;
+  width: 300px;
+}
+
+.navPortafolio > ul > li {
+  width: 300px;
+}
+
+.navPortafolio > ul > li > a {
+  text-decoration: none;
+  padding: 8px;
+  background-color: transparent;
+  color: #f5f5f5;
+  border: 2px solid #d62c40;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 800ms;
+  display: flex;
+  width: 200px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.navPortafolio .activo {
+  background-color: #d62c40;
+  color: #f5f5f5;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .containerPrincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .containerPrincipal .containerIzq {
+    width: 98%;
+    box-sizing: border-box;
+  }
+  .containerPrincipal .containerDer {
+    width: 98%;
+    box-sizing: border-box;
+  }
+
+  .navPortafolio > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 10px;
+  }
+  .navPortafolio > ul > li {
+    width: 150px;
+  }
+
+  .navPortafolio > ul > li > a {
+    padding: 4px;
+    background-color: transparent;
+    color: #f5f5f5;
+    border: 2px solid #d62c40;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 800ms;
+    display: flex;
+    width: 150px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+}

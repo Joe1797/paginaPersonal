@@ -1,0 +1,105 @@
+.containerPrincipal {
+  position: absolute;
+  background-image: url("../../Images/homeBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
+  background-attachment: fixed;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  box-sizing: border-box;
+  padding: 60px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  align-items: flex-start;
+  color: #f5f5f5;
+}
+
+.containerPrincipal > h1 {
+  font-size: 30px;
+  font-weight: 300;
+  max-width: 400px;
+}
+.containerPrincipal > h1 > strong {
+  color: #d62c40;
+  font-weight: 600;
+}
+
+.containerPrincipal > h3 {
+  margin-top: 0;
+  font-size: 36px;
+  color: #f5f5f5;
+  font-weight: 800;
+  max-width: 680px;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.buttons > button {
+  padding: 15px;
+  background-color: transparent;
+  color: #f5f5f5;
+  border: 2px solid #d62c40;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 800ms;
+}
+
+.buttons > button:hover {
+  transform: rotate(5deg);
+  border-radius: 10px;
+  background-color: #00000054;
+}
+
+.redesSociales {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.redesSociales > span {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.redesSociales > div {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.redesSociales > div > div {
+  background-color: #d62c40;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redesSociales > div > div > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 800ms;
+}
+
+.redesSociales > div > div > a:hover {
+  transform: scale(1.2);
+}
+
+.redesSociales > div > div > a > svg {
+  width: 60%;
+  height: 60%;
+}
