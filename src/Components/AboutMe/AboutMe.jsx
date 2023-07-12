@@ -41,7 +41,7 @@ export const AboutMe = () => {
         <span>SCRUM</span>
       </div>
       <h3>Mi CV</h3>
-      <a href="/CV-JOEL GONZALES DIAZ-2023-045a.pdf" download>
+      <a href="/CV-JoelGonzales-2023-07.pdf" download>
         <button className={styles.button}>Descargar CV</button>
       </a>
     </div>
